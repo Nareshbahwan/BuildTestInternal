@@ -1,0 +1,19 @@
+name: Python CI
+
+on:
+  push:
+    branches:
+      - develop 
+  pull_request:
+    branches:
+      -develop
+
+jobs:
+  test:
+    runs-on: windows-latest
+
+  steps:
+    - name : Printing hello
+      run: |
+          echo "Hello, world!"
+          echo "This is a GitHub Actions workflow running on Windows."
