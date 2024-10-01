@@ -27,8 +27,7 @@ async def root():
 
 @app.get('/metro_overview_7_days_actual_test_json')
 async def get_metro_details():
-
-    json_file_path ='D:/Python Code/midas_360/code/Midas_code/data/metrodashboard.json'
+    json_file_path =r'D:\PythonCode\build_test\BuildTestInternal\data\metrodashboard.json'
     with open(json_file_path, 'r') as json_file:
             data = json.load(json_file)
     

@@ -1,0 +1,853 @@
+{
+    "METRO_OVERVIEW": {
+        "data": {
+            "header": {
+                "energy": null,
+                "o_m": null,
+                "train": 1,
+                "station": null,
+                "passenger": null,
+                "Date_Range": "Last 7 days"
+            },
+            "Line Wise System Health Score": [
+                {
+                    "LINE": "Purple",
+                    "AFC": 75,
+                    "R&S": 80,
+                    "S&T": 78,
+                    "E&M": 90,
+                    "TVS": 91,
+                    "TRACK": 67,
+                    "STN": 68,
+                    "DEPOT": 86,
+                    "OCC": 81
+                },
+                {
+                    "LINE": "Green",
+                    "AFC": 60,
+                    "R&S": 70,
+                    "S&T": 91,
+                    "E&M": 87,
+                    "TVS": 68,
+                    "TRACK": 67,
+                    "STN": 87,
+                    "DEPOT": 86,
+                    "OCC": 81
+                },
+                {
+                    "LINE": "Yellow",
+                    "AFC": 69,
+                    "R&S": 82,
+                    "S&T": 89,
+                    "E&M": 67,
+                    "TVS": 78,
+                    "TRACK": 77,
+                    "STN": 67,
+                    "DEPOT": 86,
+                    "OCC": 81
+                },
+                {
+                    "LINE": "Pink",
+                    "AFC": 76,
+                    "R&S": 90,
+                    "S&T": 95,
+                    "E&M": 77,
+                    "TVS": 67,
+                    "TRACK": 71,
+                    "STN": 78,
+                    "DEPOT": 86,
+                    "OCC": 81
+                }
+            ],
+            "Overall Health": [
+                {
+                    "LINE_NAME": "Green",
+                    "Alerts_Warning": 17,
+                    "Alarms_Faults": 27
+                },
+                {
+                    "LINE_NAME": "Purple",
+                    "Alerts_Warning": 21,
+                    "Alarms_Faults": 33
+                },
+                {
+                    "LINE_NAME": "Pink",
+                    "Alerts_Warning": 37,
+                    "Alarms_Faults": 41
+                },
+                {
+                    "LINE_NAME": "Yellow",
+                    "Alerts_Warning": 57,
+                    "Alarms_Faults": 23
+                }
+            ],
+            "OCC Health": [
+                {
+                    "LINE_NAME": "Occ",
+                    "Alerts_Warning": 54,
+                    "Alarms_Faults": 31
+                }
+            ],
+            "Depot Health": [
+                {
+                    "LINE_NAME": "Depot",
+                    "Alerts_Warning": 58,
+                    "Alarms_Faults": 63
+                }
+            ],
+            "Predictive Alerts Trend": [
+                {
+                    "group": "Open Failure",
+                    "name": "AFC",
+                    "completed": 45,
+                    "inprogress": 50,
+                    "open": 50
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "DEQ",
+                    "completed": 65,
+                    "inprogress": 20,
+                    "open": 45
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "CVL",
+                    "completed": 45,
+                    "inprogress": 50,
+                    "open": 50
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "LNE",
+                    "completed": 55,
+                    "inprogress": 30,
+                    "open": 60
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "MEP",
+                    "completed": 15,
+                    "inprogress": 60,
+                    "open": 70
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "OHE",
+                    "completed": 45,
+                    "inprogress": 45,
+                    "open": 40
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "PSI",
+                    "completed": 65,
+                    "inprogress": 55,
+                    "open": 30
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "RST",
+                    "completed": 34,
+                    "inprogress": 65,
+                    "open": 35
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "SIG",
+                    "completed": 55,
+                    "inprogress": 25,
+                    "open": 65
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "SSS",
+                    "completed": 25,
+                    "inprogress": 55,
+                    "open": 53
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "TEL",
+                    "completed": 45,
+                    "inprogress": 35,
+                    "open": 45
+                },
+                {
+                    "group": "Open Failure",
+                    "name": "TRK",
+                    "completed": 25,
+                    "inprogress": 55,
+                    "open": 36
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "AFC",
+                    "completed": 45,
+                    "inprogress": 55,
+                    "open": 50
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "DEQ",
+                    "completed": 65,
+                    "inprogress": 75,
+                    "open": 70
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "CVL",
+                    "completed": 60,
+                    "inprogress": 70,
+                    "open": 65
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "LNE",
+                    "completed": 50,
+                    "inprogress": 65,
+                    "open": 55
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "MEP",
+                    "completed": 75,
+                    "inprogress": 80,
+                    "open": 70
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "OHE",
+                    "completed": 55,
+                    "inprogress": 60,
+                    "open": 58
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "PSI",
+                    "completed": 80,
+                    "inprogress": 85,
+                    "open": 75
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "RST",
+                    "completed": 70,
+                    "inprogress": 78,
+                    "open": 72
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "SIG",
+                    "completed": 65,
+                    "inprogress": 73,
+                    "open": 68
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "SSS",
+                    "completed": 50,
+                    "inprogress": 55,
+                    "open": 52
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "TEL",
+                    "completed": 90,
+                    "inprogress": 95,
+                    "open": 85
+                },
+                {
+                    "group": "Maintenance Activity",
+                    "name": "TRK",
+                    "completed": 60,
+                    "inprogress": 65,
+                    "open": 63
+                }
+            ],
+            "Prediction Accuracy": [
+                {
+                    "Alerts_Converted": 28,
+                    "Total_alerts": 36,
+                    "Accuracy_percentage": 70
+                }
+            ],
+            "Key Data": [
+                {
+                    "Name": "Raidership",
+                    "Value": "3.5M",
+                    "Date": "16 May 2024"
+                },
+                {
+                    "Name": "Train Trips (Act/Sch)",
+                    "Value": "613/745",
+                    "Date": "16 May 2024"
+                },
+                {
+                    "Name": "On Time Performance",
+                    "Value": "98.3%",
+                    "Date": "16 May 2024"
+                }
+            ],
+            "Energy": [
+                {
+                    "Trend": "Increased",
+                    "Name": "Energy Consumption - Traction & Non Traction",
+                    "Min": "1894 Mwh",
+                    "Max": "3298 MWh",
+                    "Avg": "2467 MWh",
+                    "Insights": "20% Increase",
+                    "Status": "Alarms/Faults",
+                    "chartType": "line",
+                    "chartColor": "#44C840,#1A8917",
+                    "chartSeries": "34, 44, 54, 51, 42, 60, 65, 55, 60, 70, 80, 90",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                },
+                {
+                    "Trend": "Decreased",
+                    "Name": "Traction Capacity Efficiency",
+                    "Min": "92.5%",
+                    "Max": "96.7%",
+                    "Avg": "94.3%",
+                    "Insights": "03% Decrease",
+                    "Status": "Alerts/Warning",
+                    "chartType": "polarArea",
+                    "chartColor": "#4C78FF, #16DBCC, #FF82AC, #FFBB38",
+                    "chartSeries": "42, 47, 52, 58",
+                    "chartCategories": "Rose A, Rose B, Rose C, Rose D"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Non- traction energy consumed / No. of stations (by line)",
+                    "Min": "43.2 MWh",
+                    "Max": "55.9 MWh",
+                    "Avg": "48.73 MWh",
+                    "Insights": "06% Increase",
+                    "Status": "Alerts/Warning",
+                    "chartType": "bar",
+                    "chartColor": "#16DBCC",
+                    "chartSeries": "30, 40, 35, 50, 49",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "CO2 Emissions per Passenger Kms",
+                    "Min": "74 g/km",
+                    "Max": "90 g/km",
+                    "Avg": "82.45 g/km",
+                    "Insights": "19% Increase",
+                    "Status": "Alarms/Faults",
+                    "chartType": "bar",
+                    "chartColor": "#1A16F3, #FCAA0B",
+                    "chartSeries": "44, 55, 41, 64, 22 | 53, 32, 33, 52, 13",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Solar Power Generation",
+                    "Min": "689 MWh",
+                    "Max": "793 MWh",
+                    "Avg": "741 MWh",
+                    "Insights": "10% Increase",
+                    "Status": "Healthy",
+                    "chartType": "line",
+                    "chartColor": "#891717, #C84040",
+                    "chartSeries": "90, 89, 56, 34, 65, 34, 76, 56, 78, 75, 24, 16",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                }
+            ],
+            "O&M": [
+                {
+                    "Trend": "Increased",
+                    "Name": "Mean Distance between incidents - Rolling Stock assets",
+                    "Min": "03.02 km",
+                    "Max": "07.42 km​",
+                    "Avg": "04.31 km​",
+                    "Insights": "05% Increase",
+                    "Status": "Alerts/Warning",
+                    "chartType": "line",
+                    "chartColor": "#44C840,#1A8917",
+                    "chartSeries": "34, 44, 54, 51, 42, 60, 65, 55, 60, 70, 80, 90",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                },
+                {
+                    "Trend": "Decreased",
+                    "Name": "Mean Time between incidents - Lifts and escalators",
+                    "Min": "01.52 hr",
+                    "Max": "02.32 hr",
+                    "Avg": "01.18 hr",
+                    "Insights": "10% Decrease",
+                    "Status": "Alerts/Warning",
+                    "chartType": "polarArea",
+                    "chartColor": "#4C78FF, #16DBCC, #FF82AC, #FFBB38",
+                    "chartSeries": "42, 47, 52, 58",
+                    "chartCategories": "Rose A, Rose B, Rose C, Rose D"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Mean time between Failures",
+                    "Min": "16.02 hr",
+                    "Max": "23.04 hr",
+                    "Avg": "19.02 hr",
+                    "Insights": "20% Increase",
+                    "Status": "Alarms/Faults",
+                    "chartType": "bar",
+                    "chartColor": "#1A16F3, #FCAA0B",
+                    "chartSeries": "44, 55, 41, 64, 22 | 53, 32, 33, 52, 13",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Mean time between Repairs",
+                    "Min": "18.52 hr",
+                    "Max": "20.52 hr",
+                    "Avg": "19.20 hr",
+                    "Insights": "23% Increase",
+                    "Status": "Healthy",
+                    "chartType": "line",
+                    "chartColor": "#891717, #C84040",
+                    "chartSeries": "90, 89, 56, 34, 65, 34, 76, 56, 78, 75, 24, 16",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Adherence to preventive maintenance schedule for identified assets",
+                    "Min": "68%",
+                    "Max": "79%",
+                    "Avg": "75%",
+                    "Insights": "09% Increase",
+                    "Status": "Alerts/Warning",
+                    "chartType": "bar",
+                    "chartColor": "#16DBCC",
+                    "chartSeries": "30, 40, 35, 50, 49",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                }
+            ],
+            "Train": [
+                {
+                    "Trend": "Increased",
+                    "Name": "Fleet Utilization",
+                    "Min": "76%",
+                    "Max": "98%",
+                    "Avg": "87%",
+                    "Insights": "12% Increase",
+                    "Status": "Healthy",
+                    "chartType": "line",
+                    "chartColor": "#44C840,#1A8917",
+                    "chartSeries": "34, 44, 54, 51, 42, 60, 65, 55, 60, 70, 80, 90",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Fleet Availability",
+                    "Min": "77%",
+                    "Max": "87.2%",
+                    "Avg": "82.1%",
+                    "Insights": "9.3% Decrease",
+                    "Status": "Healthy",
+                    "chartType": "line",
+                    "chartColor": "#891717, #C84040",
+                    "chartSeries": "90, 89, 56, 34, 65, 34, 76, 56, 78, 75, 24, 16",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                },
+                {
+                    "Trend": "Decreased",
+                    "Name": "Train Trips (Scheduled, Actual, Cancelled and additional)",
+                    "Min": "80%",
+                    "Max": "97%",
+                    "Avg": "84%",
+                    "Insights": "Moderate",
+                    "Status": null,
+                    "chartType": "polarArea",
+                    "chartColor": "#4C78FF, #16DBCC, #FF82AC, #FFBB38",
+                    "chartSeries": "42, 47, 52, 58",
+                    "chartCategories": "Rose A, Rose B, Rose C, Rose D"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Average speed of train",
+                    "Min": "18 kmph",
+                    "Max": "45 kmph",
+                    "Avg": "32 kmph",
+                    "Insights": "Optimal Usage",
+                    "Status": null,
+                    "chartType": "bar",
+                    "chartColor": "#1A16F3, #FCAA0B",
+                    "chartSeries": "44, 55, 41, 64, 22 | 53, 32, 33, 52, 13",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Train On-Time Performance",
+                    "Min": "96%",
+                    "Max": "98%",
+                    "Avg": "97%",
+                    "Insights": "Optimal",
+                    "Status": null,
+                    "chartType": "bar",
+                    "chartColor": "#16DBCC",
+                    "chartSeries": "30, 40, 35, 50, 49",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                }
+            ],
+            "Station": [
+                {
+                    "Trend": "Decreased",
+                    "Name": "Availability of Lift and Escalator",
+                    "Min": "76%",
+                    "Max": "98%",
+                    "Avg": "87%",
+                    "Insights": "28.95% Increase",
+                    "Status": "Alerts/Warning",
+                    "chartType": "polarArea",
+                    "chartColor": "#4C78FF, #16DBCC, #FF82AC, #FFBB38",
+                    "chartSeries": "42, 47, 52, 58",
+                    "chartCategories": "Rose A, Rose B, Rose C, Rose D"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Availability of AFC Gate/TOM/TVM/AVM",
+                    "Min": "67%",
+                    "Max": "88%",
+                    "Avg": "77.5%",
+                    "Insights": "31.3% Decrease",
+                    "Status": "Healthy",
+                    "chartType": "line",
+                    "chartColor": "#44C840,#1A8917",
+                    "chartSeries": "34, 44, 54, 51, 42, 60, 65, 55, 60, 70, 80, 90",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Block Management (Availability)",
+                    "Min": "80%",
+                    "Max": "97%",
+                    "Avg": "84%",
+                    "Insights": "Moderate",
+                    "Status": "disabled",
+                    "chartType": "bar",
+                    "chartColor": "#EDF0F7, #343C6A66",
+                    "chartSeries": "30, 40, 35, 50, 49",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Block Management (Availability)",
+                    "Min": "70%",
+                    "Max": "90%",
+                    "Avg": "82%",
+                    "Insights": "Optimal Usage",
+                    "Status": "disabled",
+                    "chartType": "bar",
+                    "chartColor": "#AFAFAF, #D9D7D3",
+                    "chartSeries": "44, 55, 41, 64, 22 | 53, 32, 33, 52, 13",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Availability of AFC Gate/TOM/TVM/AVM",
+                    "Min": "68%",
+                    "Max": "79%",
+                    "Avg": "75%",
+                    "Insights": "9% decrease",
+                    "Status": "disabled",
+                    "chartType": "line",
+                    "chartColor": "#343C6A66",
+                    "chartSeries": "90, 89, 56, 34, 65, 34, 76, 56, 78, 75, 24, 16",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                }
+            ],
+            "Passenger": [
+                {
+                    "Trend": "Increased",
+                    "Name": "Average passenger complaint resolution time",
+                    "Min": "1h 10m",
+                    "Max": "3h 30m",
+                    "Avg": "2h 20m",
+                    "Insights": "5% Decrease",
+                    "Status": "Healthy",
+                    "chartType": "polarArea",
+                    "chartColor": "#4C78FF, #16DBCC, #FF82AC, #FFBB38",
+                    "chartSeries": "42, 47, 52, 58",
+                    "chartCategories": "Rose A, Rose B, Rose C, Rose D"
+                },
+                {
+                    "Trend": "Decreased",
+                    "Name": "No. of passenger complaints",
+                    "Min": "259",
+                    "Max": "487",
+                    "Avg": "320",
+                    "Insights": "7% Decrease",
+                    "Status": "Alerts/Warning",
+                    "chartType": "line",
+                    "chartColor": "#44C840,#1A8917",
+                    "chartSeries": "34, 44, 54, 51, 42, 60, 65, 55, 60, 70, 80, 90",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Customer Satisfaction Score",
+                    "Min": "80%",
+                    "Max": "97%",
+                    "Avg": "84%",
+                    "Insights": "17.53% Decrease",
+                    "Status": "Alarms/Faults",
+                    "chartType": "bar",
+                    "chartColor": "#16DBCC",
+                    "chartSeries": "30, 40, 35, 50, 49",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                },
+                {
+                    "Trend": "Increased",
+                    "Name": "Percentage of CSC user, Mobile QR",
+                    "Min": "70%",
+                    "Max": "90%",
+                    "Avg": "82%",
+                    "Insights": "8.89% Decrease",
+                    "Status": "Alerts/Warning",
+                    "chartType": "line",
+                    "chartColor": "#891717, #C84040",
+                    "chartSeries": "90, 89, 56, 34, 65, 34, 76, 56, 78, 75, 24, 16",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May,Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+                },
+                {
+                    "Trend": "Decreased",
+                    "Name": "Availability of AFC Gate/TOM/TVM/AVM",
+                    "Min": "68%",
+                    "Max": "79%",
+                    "Avg": "75%",
+                    "Insights": "Optimal",
+                    "Status": "disabled",
+                    "chartType": "bar",
+                    "chartColor": "#343C6A66",
+                    "chartSeries": "30, 40, 35, 50, 49",
+                    "chartCategories": "Jan, Feb, Mar, Apr, May"
+                }
+            ],
+            "O&M Cost chart": [
+                {
+                    "Month": "Jan",
+                    "Budget": 44,
+                    "Actual": 53,
+                    "Predicted": 53
+                },
+                {
+                    "Month": "Feb",
+                    "Budget": 55,
+                    "Actual": 32,
+                    "Predicted": 32
+                },
+                {
+                    "Month": "Mar",
+                    "Budget": 41,
+                    "Actual": 33,
+                    "Predicted": 33
+                },
+                {
+                    "Month": "Apr",
+                    "Budget": 64,
+                    "Actual": 52,
+                    "Predicted": 52
+                },
+                {
+                    "Month": "May",
+                    "Budget": 22,
+                    "Actual": 13,
+                    "Predicted": 13
+                },
+                {
+                    "Month": "Jun",
+                    "Budget": 34,
+                    "Actual": 41,
+                    "Predicted": 44
+                },
+                {
+                    "Month": "Jul",
+                    "Budget": 56,
+                    "Actual": 64,
+                    "Predicted": 55
+                },
+                {
+                    "Month": "Aug",
+                    "Budget": 65,
+                    "Actual": 22,
+                    "Predicted": 41
+                },
+                {
+                    "Month": "Sep",
+                    "Budget": 76,
+                    "Actual": 34,
+                    "Predicted": 64
+                },
+                {
+                    "Month": "Oct",
+                    "Budget": 23,
+                    "Actual": 56,
+                    "Predicted": 22
+                },
+                {
+                    "Month": "Nov",
+                    "Budget": 54,
+                    "Actual": 65,
+                    "Predicted": 56
+                },
+                {
+                    "Month": "Dec",
+                    "Budget": 55,
+                    "Actual": 45,
+                    "Predicted": 34
+                }
+            ],
+            "Availability": [
+                {
+                    "Month": "Jan",
+                    "Budget": 44,
+                    "Actual": 53,
+                    "Predicted": 53
+                },
+                {
+                    "Month": "Feb",
+                    "Budget": 55,
+                    "Actual": 32,
+                    "Predicted": 32
+                },
+                {
+                    "Month": "Mar",
+                    "Budget": 41,
+                    "Actual": 33,
+                    "Predicted": 33
+                },
+                {
+                    "Month": "Apr",
+                    "Budget": 64,
+                    "Actual": 52,
+                    "Predicted": 52
+                },
+                {
+                    "Month": "May",
+                    "Budget": 22,
+                    "Actual": 13,
+                    "Predicted": 13
+                },
+                {
+                    "Month": "Jun",
+                    "Budget": 34,
+                    "Actual": 41,
+                    "Predicted": 44
+                },
+                {
+                    "Month": "Jul",
+                    "Budget": 56,
+                    "Actual": 64,
+                    "Predicted": 55
+                },
+                {
+                    "Month": "Aug",
+                    "Budget": 65,
+                    "Actual": 22,
+                    "Predicted": 41
+                },
+                {
+                    "Month": "Sep",
+                    "Budget": 76,
+                    "Actual": 34,
+                    "Predicted": 64
+                },
+                {
+                    "Month": "Oct",
+                    "Budget": 23,
+                    "Actual": 56,
+                    "Predicted": 22
+                },
+                {
+                    "Month": "Nov",
+                    "Budget": 54,
+                    "Actual": 65,
+                    "Predicted": 56
+                },
+                {
+                    "Month": "Dec",
+                    "Budget": 55,
+                    "Actual": 45,
+                    "Predicted": 34
+                }
+            ],
+            "Efficiency": [
+                {
+                    "Month": "Jan",
+                    "Budget": 78,
+                    "Actual": 69,
+                    "Predicted": 74
+                },
+                {
+                    "Month": "Feb",
+                    "Budget": 45,
+                    "Actual": 52,
+                    "Predicted": 58
+                },
+                {
+                    "Month": "Mar",
+                    "Budget": 67,
+                    "Actual": 71,
+                    "Predicted": 66
+                },
+                {
+                    "Month": "Apr",
+                    "Budget": 82,
+                    "Actual": 64,
+                    "Predicted": 79
+                },
+                {
+                    "Month": "May",
+                    "Budget": 55,
+                    "Actual": 48,
+                    "Predicted": 50
+                },
+                {
+                    "Month": "Jun",
+                    "Budget": 91,
+                    "Actual": 77,
+                    "Predicted": 80
+                },
+                {
+                    "Month": "Jul",
+                    "Budget": 53,
+                    "Actual": 85,
+                    "Predicted": 72
+                },
+                {
+                    "Month": "Aug",
+                    "Budget": 68,
+                    "Actual": 47,
+                    "Predicted": 60
+                },
+                {
+                    "Month": "Sep",
+                    "Budget": 79,
+                    "Actual": 62,
+                    "Predicted": 81
+                },
+                {
+                    "Month": "Oct",
+                    "Budget": 60,
+                    "Actual": 73,
+                    "Predicted": 67
+                },
+                {
+                    "Month": "Nov",
+                    "Budget": 82,
+                    "Actual": 68,
+                    "Predicted": 70
+                },
+                {
+                    "Month": "Dec",
+                    "Budget": 74,
+                    "Actual": 59,
+                    "Predicted": 56
+                }
+            ]
+        },
+        "messages": [],
+        "multiselect": {}
+    }
+}
