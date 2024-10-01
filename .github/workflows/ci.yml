@@ -6,14 +6,15 @@ on:
       - develop 
   pull_request:
     branches:
-      -develop
+      - develop
 
 jobs:
   test:
     runs-on: windows-latest
 
-  steps:
-    - name : Printing hello
-      run: |
+    steps:
+      - name : Print text
+        run : |
           echo "Hello, world!"
           echo "This is a GitHub Actions workflow running on Windows."
+          
