@@ -16,16 +16,26 @@ jobs:
         os: [windows-latest]
 
     steps:
+
+      - name: Check out the code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
       - name : Print text
         run : |
           echo "Hello, world!"
           echo "This is a GitHub Actions workflow running on Windows."
       - name: List files
-        run: dir
+        run: |
+          dir
       - name: Install dependencies
         run: |
             python -m pip install --upgrade pip
-            pip install -r ./requirements.txt
+            pip install -r requirements.txt
 
       - name: Run tests
         run: |
