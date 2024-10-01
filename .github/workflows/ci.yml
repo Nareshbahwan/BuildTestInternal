@@ -9,8 +9,13 @@ on:
       - develop
 
 jobs:
-  test:
-    runs-on: windows-latest
+
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
 
     steps:
       - name : Print text
