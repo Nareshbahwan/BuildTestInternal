@@ -15,18 +15,17 @@ jobs:
         # os: [ubuntu-latest, windows-latest]
         os: [windows-latest]
 
-
     steps:
       - name : Print text
         run : |
           echo "Hello, world!"
           echo "This is a GitHub Actions workflow running on Windows."
-
+          echo Running on ${{matrix.os}}
+      - name: List files
+        run: ls -la
       - name: Install dependencies
         run: |
             python -m pip install --upgrade pip
-            SET var=%cd%
-            echo %var%
             pip install -r requirements.txt
 
       - name: Run tests
